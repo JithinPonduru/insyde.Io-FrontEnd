@@ -245,7 +245,7 @@ export const Gallery: React.FC<GalleryProps> = ({ isDarkMode }) => {
           ))
         ) : (
           <p className="text-center col-span-3 text-gray-500">
-            No models available.
+            No more models available.
           </p>
         )}
       </div>
