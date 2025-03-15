@@ -1,52 +1,88 @@
-# Inside.Io 3D Viewer  
+# Insyde.Io 3D Viewer  
 
-Inside.Io 3D Viewer is a **web-based application** designed to render and interact with 3D models in real time. This project is built using **React, Three.js, and TypeScript** to provide a smooth and immersive 3D viewing experience.  
+Insyde.Io 3D Viewer is a **web-based application** that enables real-time rendering and interaction with 3D models. Built using **React, Three.js, and TypeScript**, this project provides an immersive and high-performance 3D viewing experience.  
+
+## Screenshots  
+
+### White Theme  
+![White Theme](https://i.ibb.co/JWmj8XJx/Screenshot-2025-03-15-104923.png)  
+
+### Black Theme  
+![Black Theme](https://i.ibb.co/RT5dFsmf/Screenshot-2025-03-15-104859.png)  
+
+---
 
 ## Features  
 
-- 📦 **3D Model Rendering** – Load and display 3D models with realistic textures.  
-- 🖱 **Interactive Controls** – Rotate, zoom, and pan the model for better exploration.  
-- 🎨 **Material & Lighting Effects** – Dynamic lighting and material adjustments for enhanced visuals.  
-- 🌐 **Web-Based Solution** – Accessible directly via a web browser, no installation required.  
-- ⚡ **Optimized Performance** – Leveraging WebGL and Three.js for smooth rendering.  
+✅ **3D Model Rendering** – Load and display 3D models with realistic textures.  
+🖱 **Interactive Controls** – Rotate, zoom, and pan for better exploration.  
+🎨 **Material & Lighting Effects** – Dynamic lighting and customizable materials.  
+🌐 **Web-Based Solution** – Runs in a browser without installation.  
+⚡ **Optimized Performance** – Utilizes WebGL and Three.js for smooth rendering.  
+
+---
 
 ## Tech Stack  
 
 - **React + Vite** – Fast and modular frontend development.  
 - **Three.js** – WebGL-powered 3D graphics rendering.  
-- **TypeScript** – Strongly typed for better maintainability.  
-- **Tailwind CSS** – Lightweight and customizable UI styling.  
+- **TypeScript** – Ensures type safety and maintainability.  
+- **Tailwind CSS** – Lightweight and flexible styling.  
+
+---
 
 ## Installation & Setup  
 
-1. Clone the repository:  
+Follow these steps to run the project locally:  
+
+1️⃣ **Clone the repository:**  
    ```sh
-   git clone https://github.com/JithinPonduru/Inside.Io-FrontEnd.git
-   ```
-2. Navigate to the project folder:  
+   git clone https://github.com/JithinPonduru/Insyde.Io-FrontEnd.git
+   ```  
+2️⃣ **Navigate to the project folder:**  
    ```sh
-   cd Inside.Io-FrontEnd
-   ```
-3. Install dependencies:  
+   cd Insyde.Io-FrontEnd
+   ```  
+3️⃣ **Install dependencies:**  
    ```sh
    npm install
-   ```
-4. Run the development server:  
+   ```  
+4️⃣ **Start the development server:**  
    ```sh
    npm run dev
+   ```  
+5️⃣ **Open your browser** and visit:  
    ```
-5. Open your browser and visit `http://localhost:5173` to test the 3D viewer.  
+   http://localhost:5173
+   ```  
+
+---
 
 ## Configuration  
 
-- Ensure the backend API is running and accessible.  
-- Update the **API endpoints** in the `.env` file if necessary.  
-- To fix CORS issues, modify backend settings to allow requests from `http://localhost:5173`.  
+- Ensure the **backend API** is running and accessible.  
+- Update API endpoints in the `.env` file if necessary.  
+- Modify backend CORS settings to allow requests from `http://localhost:5173`.  
+
+---
 
 ## Contribution  
 
-Since this is an assignment, contributions are not expected. However, for improvements:  
-1. Create a new branch (`git checkout -b feature-branch`)  
-2. Commit changes (`git commit -m "Add new feature"`)  
-3. Push to the branch (`git push origin feature-branch`)  
-4. Open a Pull Request  
+Since this is an assignment, external contributions are not required. However, if you'd like to improve the project:  
+
+1. **Fork the repository**  
+2. **Create a new branch:**  
+   ```sh
+   git checkout -b feature-branch
+   ```  
+3. **Commit your changes:**  
+   ```sh
+   git commit -m "Add new feature"
+   ```  
+4. **Push to your branch:**  
+   ```sh
+   git push origin feature-branch
+   ```  
+5. **Open a Pull Request**  
+
+---
